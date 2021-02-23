@@ -1,0 +1,77 @@
+.btn {
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 5px 8px 5px 8px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 7px;
+    border: solid 2px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    box-shadow: transparent 0 0 0;
+    transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.btn_color_linkedin {
+    border-color: #0077B5;
+    color: #0077B5;
+    background-color: white;
+}
+
+.btn_color_linkedin:hover {
+    border-color: #0077B5;
+    background-color:#0077B5;
+    color: white;
+}
+
+.btn_color_github {
+    border-color: #2b3137;
+    color: #2b3137;
+    background-color: white;
+}
+
+.btn_color_github:hover {
+    border-color: #2b3137;
+    background-color:#2b3137;
+    color: white;
+}
+
+.btn_color_resume {
+    border-color: red;
+    color: red;
+    background-color: white;
+}
+
+.btn_color_resume:hover {
+    border-color:red;
+    background-color: red;
+    color: white;
+}
+
+.btn_git {
+    border-color: #4CAF50;
+    color: #4CAF50;
+    background-color: white;
+}
+  
+.btn_git:hover {
+    background-color: #4CAF50;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn_git_dim{
+    width: 120px;
+    height: 35px;
+}
+
+
+.google-play-badge {
+    width: 120px;
+}

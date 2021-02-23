@@ -1,0 +1,90 @@
+.education {
+    position: relative;
+}
+
+.education-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.education-box h3 {
+    letter-spacing: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.education-box-blue {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.education-box-blue h3 {
+    letter-spacing: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.education-date {
+    left: -20px;
+    width: 117px;
+    letter-spacing: 0;
+    line-height: 1.1;
+    padding: 6px 6px;
+    margin-left: 15px;
+    font-size: 0.625em;
+    position: relative;
+    display: inline-block;
+}
+
+.education-date span {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    white-space: nowrap;
+}
+
+.education-title{
+    display: inline;
+}
+
+.education-logo {
+    margin-bottom: 5px;
+}
+
+.education-company {
+    line-height: 1.1;
+    letter-spacing: 0;
+    font-size: 0.625em;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+
+    .education-box h3 {
+        font-size: 20px;
+        margin-bottom: 22px;
+        margin-top: 0;
+    }
+
+    .education-box-blue h3 {
+        font-size: 20px;
+        margin-bottom: 22px;
+        margin-top: 0;
+    }
+
+    .education-date {
+        padding: 8px 6px;
+        font-size: 0.875em;
+        display: block;
+        text-align: center;
+        position: relative;
+        width: 160px;
+    }
+}
+
+.education-company {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
