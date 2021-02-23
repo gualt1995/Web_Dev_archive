@@ -1,0 +1,41 @@
+.project {
+    position: relative;
+}
+
+.project-box {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.project-box:before {
+    content: "";
+    top: 9px;
+    left: -1px;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+.project-box h3 {
+    display: inline-block;
+    letter-spacing: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.project-box:last-child:after {
+    top: 14px;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    content: '';
+    position: absolute;
+}
+
+.project-logo {
+    display: inline;
+}
+
+
+  
